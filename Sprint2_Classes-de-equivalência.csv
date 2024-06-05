@@ -24,3 +24,22 @@ Sobrenome,Letras latinas,,Dhara,,
 ,Comprimento de 14 caracteres,,DharaDharaDhar,,
 ,Campo vazio,,,,
 ,,,%$*&¨$#,,
+Distância entre os endereços <0,distância > 0,,"East 2nd Street 601, 1300 1st St",,
+,Distância = 0,,"1300 1st St, 1300 1st St",,
+Distância entre os endereços >0,"Intervalo de tempo: 00:01-08:00, velocidade: 45 km/h
+","00:01, 08:00",07:00,"00:00, 08:01
+00:02, 07:59
+00:01, 08:00",
+,"Intervalo de tempo: 08:01-12:00, 30 km/h",08:01 - 12:00,09:00,"08:00, 12:01
+08:01, 12:00
+08:02, 11:59",
+,"Intervalo de tempo: 12:01-18:00, 40 km/h",12:01 - 18:00,14:00,"12:00, 18:01
+12:01, 18:00
+12:02, 17:59",
+,"Intervalo de tempo: 18:01-22:00, 25 km/h
+",18:01 - 22:00,20:00,"18:00, 22:01
+18:01, 22:00
+18:02, 21:59",
+,"Intervalo de tempo: 22:01-00:00, 45 km/h",22:01 - 00:00,23:00,"22:00, 00:01
+22:01, 00:00
+22:02, 23:59"
