@@ -6,7 +6,7 @@ CASO-3	Objetos não clicáveis	Abra o site do Urban.Routes	1	Clique no nome do l
 CASO-3	Objetos não clicáveis	Abra o site do Urban.Routes	2	Clique no nome do local presente no mapa (exemplo: West Hollywood).	Nada acontece. Os cabeçalhos de área não podem ser selecionados.	REPROVADO	BR7
 CASO-4	Selecionar o campo De	Abra o site do Urban.Routes	1	Clique no campo De.	O campo De é selecionado. O cursor pisca. O campo de pesquisa fica vazio.	REPROVADO	BR8
 CASO-5	Busca por objeto	Abra o site do Urban.Routes	1	Clique no campo Para.	O cursor pisca.	REPROVADO	BR1
-CASO-5	Busca por objeto	Abra o site do Urban.Routes	2	Digite Subway.	A lista de estações de metrô é exibida.		
+CASO-5	Busca por objeto	Abra o site do Urban.Routes	2	Digite Subway.	A lista de estações de metrô é exibida.	REPROVADO	BR1
 CASO-6	Preenchimento do campo De	Abra o site do Urban.Routes	1	Clique no campo De.	O campo De é selecionado. O cursor pisca. O campo de pesquisa fica vazio.	REPROVADO	BR2
 CASO-6	Preenchimento do campo De	O campo De está vazio	2	Insira um endereço (exemplo: East 2nd Street, 601).	O mapa recebe zoom no pino de endereço. A visualização corresponde à descrição do projeto.	REPROVADO	BR2
 CASO-7	Preenchimento do campo Para	Abra o site do Urban.Routes	1	Clique no campo Para.	O campo Para é selecionado. O cursor pisca. O campo de pesquisa fica vazio.	REPROVADO	BR3
