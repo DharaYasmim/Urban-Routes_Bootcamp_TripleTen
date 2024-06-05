@@ -27,3 +27,13 @@ Analisar os requisitos, encontrar áreas cinzentas e as especificar. <br>
 + Testes funcionais e não-funcionais
 + Design de casos de teste (positivos, negativos, classes de equivalência, valores limite e otimização)
 + Documentação de testes
+
+## Sprint 3 - Testes de Aplicativos Web
+:dart: O objetivo do projeto dessa sprint era testar a funcionalidade de compartilhamento de carros do Urban Routes em diferentes ambientes. Preparei os testes e criei checklist de layout e funcionalidade e relatei os bugs. <br>
+
+:pushpin: O que aprendi: 
++ Aspectos gerais de como um app web funciona
++ Testes de interface
++ Testes multiplataforma
++ Teste de design web responsivo
+
