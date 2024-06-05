@@ -1,4 +1,3 @@
 ID, Nome do caso de teste, Pré-condição, Etapa, Descrição da etapa, Resultado esperado, Status, ID do bug
 CASO-1, Rolagem do mapa, Abra o site do Urban.Routes, 1, Clique o mapa e role para cima e para baixo., O mapa se move. Todos os objetos são renderizados conforme o design., APROVADO, x
 CASO-2, Zoom no mapa, O site Urban.Routes não está aberto, 1. 2, Abra o site do Urban.Routes. O mapa corresponde ao design. O nível de zoom é adequado para visualizar a cidade, O mapa corresponde ao design. O nível de zoom é adequado para visualizar a cidade, REPROVADO, BR6
-...
