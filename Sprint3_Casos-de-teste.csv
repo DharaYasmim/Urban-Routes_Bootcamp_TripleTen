@@ -1,0 +1,96 @@
+"Casos de teste e teste: a lógica do botão ""Reservar""",,,,,,,
+,,,,,,,
+ID do caso de teste,Nome do caso de teste,Pré-condições,Número da etapa,Descrição da etapa,Resultado esperado,Google Chrome 800x600,Link para o relatório de bug
+t-1,"Verificar a lógica do botão de reserva ao preencher todos os campos obrigatórios do formulário de reserva
+","1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clique no botão ""Reservar""",1,Adicionar carteira de motorista,"Texto no botão ""Reservar""
+""A rota será de ... quilômetros e levará ... minutos""
+
+Quando você clicar no botão, a janela ""Carro reservado"" será aberta
+",APROVADO,
+,,,2,Adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+t-2,"Todos os campos e endereços obrigatórios foram preenchidos, exceto para a carteira de motorista","1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clique no botão ""Reservar""",1,Não adicionar carteira de motorista,"Texto no botão ""Reservar""
+""A rota será de ... quilômetros e levará ... minutos""
+
+A janela ""Carteira de motorista adicionada"" aparece",REPROVADO,https://dharayf.atlassian.net/browse/DFS3-29
+,,,2,Adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+t-3,"Todos os campos e endereços obrigatórios foram preenchidos, exceto para o método de pagamento","1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clique no botão ""Reservar""",1,Adicionar carteira de motorista,"Texto no botão ""Reservar""
+Adicionar o método de pagamento e reservar
+
+A rota será de ... quilômetros e levará ... minutoA janela ""Cartão adicionado"" aparecerá
+",REPROVADO,https://dharayf.atlassian.net/browse/DFS3-28
+,,,2,Não adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+t-4,"Todos os campos obrigatórios foram preenchidos, os endereços foram excluídos","1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clique no botão ""Reservar""",1,Adicionar carteira de motorista,"Texto no botão ""Reservar""
+Reservar
+
+A janela ""Carro reservado"" aparece
+",APROVADO,
+,,,2,Adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+,,,4,Clique nos botões “x” do campo “De” e “Para”,,,
+t-5,Todos os campos obrigatórios não foram preenchidos e os endereços foram excluídos,"1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clique no botão ""Reservar""",1,Não adicionar carteira de motorista,"Texto no botão ""Reservar""Adicionar carteira de motorista e reservar
+
+A janela ""Carteira de motorista adicionada"" aparece
+",BLOQUEADO,Ao excluir os endereços o formulário volta ao estado inicial.
+,,,2,Não adicionar um cartão bancário,,,
+,,,3,"Excluir endereços de ""De"" e ""Para""",,,
+,,,4,Clicar no botão reservar,,,
+t-6,"Verificar a lógica da reserva ao preencher os campos De e Para
+","1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clicar no botão ""Reservar""
+",1,Adicionar carteira de motorista,"Uma janela com o título ""O carro foi reservado"" surgirá no centro da tela. Nela, aparecem o ícone e endereço do carro, bem como o custo da corrida e o cronômetro que exibe o tempo de espera gratuito.",APROVADO,
+,,,2,Adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+t-7,Validar o cancelamento da reserva,"1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clicar no botão ""Reservar""
+",1,Adicionar carteira de motorista,A corrida é cancelada,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-14
+,,,2,Adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+,,,4,"Clicar em Cancelar ""X""",,,
+,,,5,Clicar em SIM,,,
+t-8,Validar o NÃO cancelamento da reserva,"1. Acesse a mesa de teste
+2. Insira ""1917 Bay St"" no campo ""De""
+3. Insira ""615 S Broadway"" no campo ""Para""
+4. Escolha o modo ""Personal""
+5. Escolha ""Compartilhamento de carro"" como tipo de transporte
+6. Clicar no botão ""Reservar""
+",1,Adicionar carteira de motorista,A corrida NÃO é cancelada,BLOQUEADO,https://dharayf.atlassian.net/browse/DFS3-14
+,,,2,Adicionar um cartão bancário,,,
+,,,3,Clicar no botão reservar,,,
+,,,4,"Clicar em Cancelar ""X""",,,
+,,,5,Clicar em NÃO,,,

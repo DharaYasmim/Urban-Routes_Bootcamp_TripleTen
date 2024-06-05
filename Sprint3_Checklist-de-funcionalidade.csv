@@ -1,0 +1,57 @@
+"Checklist e resultados de teste: teste das janelas ""Método de pagamento"" e ""Adicionar cartão""",,,,
+,,,,
+№,Descrição da revisão,Status do ambiente Google Chrome 800x600,Status do ambiente Firefox 1920x1080,Link para o relatório de bug
+1,"Clicar no campo ""Método de pagamento"" abre a janela ""Método de pagamento""",APROVADO,APROVADO,
+2,"Clicar no botão ""Adicionar o cartão"" abre o formulário ""Adicionar o cartão""",APROVADO,APROVADO,
+3,"Por padrão, os campos ""Número do cartão"" e ""Código"" estão vazios",APROVADO,APROVADO,
+4,"Na janela de ""Adicionar o cartão"" aparecem os campos: Número do cartão e Código",APROVADO,APROVADO,
+5,"Para reservar um carro, o usuário precisa inserir os detalhes de pelo menos um cartão e clicar no botão ""Adicionar""",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-16
+6,Não há restrição sobre a quantidade de cartões que o usuário pode adicionar.,APROVADO,APROVADO,
+7,"Quando um cartão é adicionado, a interface mostra os últimos 4 dígitos do seu número.",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-17
+"Campo ""Número do cartão"" do método de pagamento",,,,
+9,É possível inserir 123412341234 (números),APROVADO,APROVADO,
+10,"É impossível inserir ""abcdabcdabcd"" (letras)",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-19
+11,É impossível inserir !@#$!@#$!@#$ (caracteres especiais),REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-21
+12,É possível inserir 123412341234 (12 números),APROVADO,APROVADO,
+13,É impossível inserir 12341234123 (11 números),REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-20
+14,É impossível inserir 1234123412341 (13 números),REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-20
+15,123412341234 é inserido e o método de pagamento é cadastrado,APROVADO,APROVADO,
+16,!@#$!@#$!@#$ (12 caracteres especiais) é inserido e o método de pagamento não é cadastrado,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-21
+17,Formato para nnnn: de 0000 a 9999 (incluindo esses números),REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-21
+18,Os espaços são inseridos automaticamente quando o usuário insere o número e clica fora do campo.,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-22
+19," Se forem inseridos menos de 12 símbolos, o botão ""Adicionar"" permanece inativo.",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-23
+20,"O sistema não permite inserir outros símbolos ou números que não estejam conforme os requisitos.
+",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-21
+"Campo ""Código"" do método de pagamento",,,,
+21,Formato nn.  É impossível inserir 3 símbolos no campo código,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-24
+22,É impossivel digitar 00,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-33
+23,É possivel digitar 01,APROVADO,APROVADO,
+24,É possivel digitar 02,APROVADO,APROVADO,
+25,É possivel digitar 98,APROVADO,APROVADO,
+26,É possivel digitar 99,APROVADO,APROVADO,
+27,É impossivel digitar 100,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-34
+28,É impossível digitar ab,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-35
+29,É impossível digitar !@,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-36
+30,"Se for inserido 1 número no campo código, o botão ""Adicionar"" permanece inativo",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-26
+31,"Se deixar o campo código vazio,  o botão ""Adicionar"" permanece inativo",APROVADO,APROVADO,
+32,"Se inserir 2 números no campo código,  o botão ""Adicionar"" fica ativo",APROVADO,APROVADO,
+33,Somente números. O sistema não permite inserir outros símbolos ou números que não estejam conforme os requisitos.,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-25
+34,"Restrições para nnnn: de 01 a 99 (incluindo esses números).
+",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-24
+35,"Se for inserido 1, o botão ""Adicionar"" permanece inativo.",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-26
+Botões,,,,
+36,"Ao clicar em ""Adicionar"" abre a janela ""Método de pagamento""",APROVADO,APROVADO,
+37,Não é possível reservar um carro sem um cartão.,APROVADO,APROVADO,
+38,O botão Cancelar fecha a janela,APROVADO,APROVADO,
+39,o Botão X fecha a janela,APROVADO,APROVADO,
+40,O Botão + abre janela para adiconar cartão,APROVADO,APROVADO,
+,Combinação do campos número e código,,,
+41,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número""  com valor VÁLIDO e o campo ""Código"" VAZIO",APROVADO,APROVADO,
+42,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" VÁLIDO e o campo ""Código"" INVÁLIDO",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-26
+43,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" INVÁLIDO e o campo ""Código"" VAZIO",APROVADO,APROVADO,
+44,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" INVÁLIDO e o campo ""Código"" INVÁLIDO",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-37
+45,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" INVÁLIDO e o campo ""Código"" VÁLIDO",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-38
+46,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" VAZIO e o campo ""Código"" VAZIO",APROVADO,APROVADO,
+47,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" VAZIO e o campo ""Código"" INVÁLIDO",APROVADO,APROVADO,
+48,"O botão ""Adicionar"" fica inativo ao preencher o campo ""Número"" VAZIO e o campo ""Código"" VÁLIDO",APROVADO,APROVADO,
+49,"O botão ""Adicionar"" fica ATIVO ao preencher o campo ""Número"" VÁLIDO e o campo ""Código"" VÁLIDO",APROVADO,APROVADO,

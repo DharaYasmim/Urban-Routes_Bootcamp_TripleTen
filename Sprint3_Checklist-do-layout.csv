@@ -1,0 +1,57 @@
+Checklist e resultados de teste: teste de layout,,,,
+,,,,
+№,Descrição da revisão,Status do ambiente Google Chrome 800x600,Status do ambiente Firefox 1920x1080,Link para o relatório de bug
+,ESTADO PADRÃO,,,
+1,"Ao acessar o Urban Route, o nome ""Plataforma"" é exibido em marca d'agua ao lado da logo",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-1
+2,"Ao acessar o Urban Route, a página é exibida no idioma PT-BR",APROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-9
+3,"Ao acessar o Urban Route, o campo ""De"" está vazio",APROVADO,APROVADO,
+4,"Ao acessar o Urban Route, o campo ""Para"" está vazio",APROVADO,APROVADO,
+5,"Ao clicar no campo ""De"" o placeholder ""East 2nd Street, 601"" é exibido",APROVADO,APROVADO,
+6,"Ao clicar no campo ""Para"" o placeholder ""1300 1st St"" é exibido",APROVADO,APROVADO,
+7,"Ao inserir dados válidos nos campos ""De"" e ""Para"" surge uma sessão com as opções de tarifas ""Optimal"", ""Flash"" e ""Personal"" e ícones dos meios de transporte",APROVADO,APROVADO,
+8,"A tarifa ""Flash"" esta pre-selecionada e marcada com a cor cinza",APROVADO,APROVADO,
+9,"Abaixo dos ícones tem um botão azul com o texto ""Reservar""",APROVADO,APROVADO,
+10,Os nomes dos endereços dos pontos A e B são exibidos no mapa,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-2
+11,"Três tarifas estão disponíveis: ""Casual"", ""Camping"" e ""Luxury""",REPROVADO,APROVADO,https://dharayf.atlassian.net/browse/DFS3-3
+,,,,
+,CLASSE CASUAL,,,
+12,A tarifa escolhida é marcada com a cor cinza. ,APROVADO,APROVADO,
+13,"Por padrão, a tarifa ""Casual"" é escolhida, e há um ícone de um carro cinza e o nome ""Casual"" abaixo",APROVADO,APROVADO,
+14,"Por padrão, o aplicativo mostra o custo exato da corrida",APROVADO,APROVADO,
+15,"Abaixo da tarifa escolhida, há uma seção com os detalhes da tarifa e informações sobre o carro mais próximo ",APROVADO,APROVADO,
+16,Na seção com os detalhes é exibido a marca do carro mais próximo,APROVADO,APROVADO,
+17,"Na seção com os detalhes é exibido a descrição da tarifa: ""Apenas negócios, nada extra""",APROVADO,APROVADO,
+18,"Na seção com os detalhes é exibido: o tempo de viagem do carro até o ponto ""De"", um ícone e o texto ""N minutos - 15 minutos de espera gratuita",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-4
+19,Na seção com os detalhes é exibido uma imagem do carro e Parâmetros adicionais,APROVADO,APROVADO,
+20,"O carro mais próximo é escolhido automaticamente, e o ícone dele no mapa fica maior, e a caixa preta com a marca do carro aparece sobre o ícone.",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-31
+21,Os carros disponíveis continua sendo exibido no mapa em forma de ícones.,REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-5
+22,"O estado inicial do formulário de pedido — a tarifa ""Casual"" foi escolhida e os campos ""Adicionar carteira de motorista"" e ""Método de pagamento"" estão vazios",APROVADO,APROVADO,
+23,"Formulário para informar carteira de motorista aparece abaixo das informações sobre o carro, campo está vazio e possui um placeholder ""Adicionar carteira de motorista""",APROVADO,APROVADO,
+24,"Há um ícone "">"" no campo para informar carteira de motorista",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-6
+25,"Formulário para indicar o método de pagamento aparece abaixo do campo ""adicionar carteira de motorista"", o campo está vazio e possui placeholders ""Adicionar carteira de motorista"", ""Adicionar"" e ícones",APROVADO,APROVADO,
+26,"Por padrão, há o icone de cartão de crédito no campo de opção de pagamento",APROVADO,APROVADO,
+,,,,
+,REQUISITOS DO PEDIDO,,,
+25,"Abaixo do campo ""Método de pagamento"" há um painel ""Requisitos do pedido""",APROVADO,APROVADO,
+26,"O Formulário dos requisitos do pedido é uma lista suspensa, que na tarifa ""Casual"" fica oculta",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-7
+27,"A lista suspensa de ""Requisitos do pedido"" se fecha se a tarifa padrão ""Casual"" for escolhida ou quando volta à tarifa ""Casual""",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-8
+28,"Se o usuário escolher outra tarifa, a lista suspensa de ""Requisitos do pedido"" abre automaticamente.",APROVADO,APROVADO,
+29,"Há conteúdos diferentes no painel ""Requisitos do pedido"" para cada tarifa.
+",APROVADO,APROVADO,
+30,"É possível rolar pelo painel ""Requisitos do pedido""",APROVADO,APROVADO,
+31,"Há um botão azul no canto inferior esquerdo da tela, abaixo dos ""Requisitos do pedido"".",APROVADO,APROVADO,
+,,,,
+,FORMULÁRIO DO PEDIDO,,,
+32,"O Texto do botão é ""Adicionar a carteira de motorista e reservar. A rota será de ... quilômetros e levará ... minutos""  quando todos os campos e endereços obrigatórios foram preenchidos, exceto a carteira de motorista
+",REPROVADO,APROVADO,https://dharayf.atlassian.net/browse/DFS3-10
+33,"Ao adicionar dados válidos no formulário ""Carteira de motorista"", campo fica com a borda verde e um ícone aparece no canto direito",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-11
+34,"O Texto do botão é ""Adicionar o método de pagamento e reservar. A rota será de ... quilômetros e levará ... minutos""  quando todos os campos e endereços obrigatórios foram preenchidos, exceto o método de pagamento
+",REPROVADO,APROVADO,https://dharayf.atlassian.net/browse/DFS3-13
+35,"Ao adicionar dados válidos no formulário ""Método de pagamento"" o visual do campo não muda",APROVADO,APROVADO,
+36,"O Texto do botão é ""Reservar A rota será de .. quilômetros e levará .. minutos"" quando todos os campos e endereços obrigatórios foram preenchidos",REPROVADO,APROVADO,https://dharayf.atlassian.net/browse/DFS3-12
+37,"Se o usuário preencheu todos os campos corretamente e clicou no botão ""Reservar"", a janela com o cabeçalho ""O carro foi reservado"" aparecerá na tela",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-13
+38,"A marca, a placa, o ícone e o endereço do carro estão dentro dessa janela, bem como o custo da corrida e o cronômetro que exibe o tempo de espera gratuito.
+Se os campos ""De"" e ""Para"" estiverem preenchidos, o custo exato da corrida será exibido. Caso contrário, o preço por minuto será exibido",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-13
+39,"O cronômetro inicia a contagem do tempo de espera gratuito quando o usuário clicar no campo ""Reservar""",APROVADO,APROVADO,
+40,"Ao clicar no ícone ""X"" para cancelar, uma janela POP up aparece com a frase: ""Tem certeza de que deseja cancelar a corrida?"", botão cinza com ""Não"" e botão azul com ""sim""",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-14
+41,"Ao confirmar o cancelamento da corrida um pop up aparece com a mensagem ""A corrida foi cancelada"" e abaixo um botão azul com ""Entendido""",REPROVADO,REPROVADO,https://dharayf.atlassian.net/browse/DFS3-14
