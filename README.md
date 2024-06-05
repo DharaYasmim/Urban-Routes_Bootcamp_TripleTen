@@ -1,1 +1,17 @@
 # Urban-Routes_Bootcamp_TripleTen
+O Urban Routes é um aplicativo que cria rotas e calcula o tempo e custo da viagem para diferentes tipos de transporte.
+A interface possui dois campos para endereços, "De" e "Para" e três modos: Optimal, Flash e Personal, bem como ícones para os tipos de transporte: Carro próprio, a pé, táxi, bicicleta, scooter ou compartilhamento de carro. Depois que o usuário envia seus locais "De" e "Para", o aplicativo recebe essas informações e calcula o tempo e custo total da viagem usando um algoritmo específico.
+<div align="center"><img src=https://github.com/DharaYasmim/Urban-Routes_Bootcamp_TripleTen/assets/170812908/199c5af2-45b6-47d9-883a-9d6b817db5e4 width="500px" alt="Print da plataforma Urban Routes" align="middle"></div>
+
+
+
+## Sprint 1 - Noções Básicas de Testes<br>
+O objetivo do projeto dessa sprint era encontrar bugs e relatá-los. Recebi uma planilha com o testes de regressão já descritos e precisei executá-los e criar relatórios dos bugs encontrados. <br>
+
+O que aprendi: 
++ Ciclo de vida do desenvolvimento de software
++ Desenvolvimento de testes
++ Checklists
++ Relatórios de Bugs
++ Criar casos de testes
++ Teste de fumaça e regressão
