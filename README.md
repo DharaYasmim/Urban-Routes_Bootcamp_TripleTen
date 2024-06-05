@@ -6,12 +6,24 @@ A interface possui dois campos para endereços, "De" e "Para" e três modos: Opt
 
 
 ## Sprint 1 - Noções Básicas de Testes<br>
-O objetivo do projeto dessa sprint era encontrar bugs e relatá-los. Recebi uma planilha com o testes de regressão já descritos e precisei executá-los e criar relatórios dos bugs encontrados. <br>
+:dart: O objetivo do projeto dessa sprint era encontrar bugs e relatá-los. Recebi uma planilha com o testes de regressão já descritos e precisei executá-los e criar relatórios dos bugs encontrados. <br>
 
-O que aprendi: 
+:pushpin: O que aprendi: 
 + Ciclo de vida do desenvolvimento de software
 + Desenvolvimento de testes
 + Checklists
 + Relatórios de Bugs
 + Criar casos de testes
 + Teste de fumaça e regressão
+
+## Sprint 2 - Design de Teste<br>
+:dart: O objetivo do projeto dessa sprint era decompor e visualizar os requisitos com um mapa mental, um fluxograma e uma tabela. Definir os objetos de teste e projetar testes com a ajuda de técnicas de design de teste.
+Analisar os requisitos, encontrar áreas cinzentas e as especificar. <br>
+
+:pushpin: O que aprendi: 
++ Analisar e decompor requisitos
++ Criar mapa mental e Fluxograma
++ Identificar áreas cinzentas
++ Testes funcionais e não-funcionais
++ Design de casos de teste (positivos, negativos, classes de equivalência, valores limite e otimização)
++ Documentação de testes
