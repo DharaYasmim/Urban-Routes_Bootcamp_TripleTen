@@ -8,12 +8,12 @@ CASO-4,Selecionar o campo De,Abra o site do Urban.Routes,1,Clique no campo De.,O
 CASO-5,Busca por objeto,Abra o site do Urban.Routes,1,Clique no campo Para.,O cursor pisca.,REPROVADO,BR1
 CASO-5,Busca por objeto,Abra o site do Urban.Routes,2,Digite Subway.,A lista de estações de metrô é exibida.,REPROVADO,BR1
 CASO-6,Preenchimento do campo De,Abra o site do Urban.Routes,1,Clique no campo De.,O campo De é selecionado. O cursor pisca. O campo de pesquisa fica vazio.,REPROVADO,BR2
-CASO-6,Preenchimento do campo De,O campo De está vazio,2,Insira um endereço (exemplo: East 2nd Street, 601).,O mapa recebe zoom no pino de endereço. A visualização corresponde à descrição do projeto.,REPROVADO,BR2
+CASO-6,Preenchimento do campo De,O campo De está vazio,2,Insira um endereço (exemplo: East 2nd Street 601).,O mapa recebe zoom no pino de endereço. A visualização corresponde à descrição do projeto.,REPROVADO,BR2
 CASO-7,Preenchimento do campo Para,Abra o site do Urban.Routes,1,Clique no campo Para.,O campo Para é selecionado. O cursor pisca. O campo de pesquisa fica vazio.,REPROVADO,BR3
 CASO-7,Preenchimento do campo Para,O campo Para está vazio,2,Insira um endereço (exemplo: 1300 1st St).,O mapa recebe zoom no pino de endereço. A visualização corresponde à descrição do projeto.,REPROVADO,BR3
 CASO-8,Limpar os campos,Abra o site do Urban.Routes,1,Clique na cruz no campo De.,O campo está vazio. O endereço inserido anteriormente é removido do campo.,APROVADO,X
 CASO-8,Limpar os campos,Os campos De e Para estão preenchidos,2,Clique na cruz no campo Para.,O campo está vazio. O endereço inserido anteriormente é removido do campo.,APROVADO,X
-CASO-9,Observar objetos 3D,Abra o site do Urban.Routes,1,Amplie um objeto 3D (exemplo: Aeroporto Internacional de Los Angeles, LAX).,O objeto é mapeado como um objeto 3D.,APROVADO,X
+CASO-9,Observar objetos 3D,Abra o site do Urban.Routes,1,Amplie um objeto 3D (exemplo: Aeroporto Internacional de Los Angeles LAX).,O objeto é mapeado como um objeto 3D.,APROVADO,X
 CASO-10,Modo de visualização em tela cheia,Abra o site do Urban.Routes,1,Clique no botão de modo de visualização em tela cheia.,O modo de visualização em tela cheia é ativado e as abas do navegador são ocultadas. Todos os objetos da interface do mapa estão no lugar. O nível de zoom não muda.,REPROVADO,BR9
 CASO-10,Modo de visualização em tela cheia,O modo de visualização em tela cheia não está ativado,2,Clique no botão de modo de visualização em tela cheia.,O modo de visualização em tela cheia é desativado e as abas do navegador voltam a aparecer. Todos os objetos da interface do mapa estão no lugar. O nível de zoom não muda.,REPROVADO,BR9
 CASO-11,Modo de renderização,Abra o site do Urban.Routes,1,Aproxime o cursor do botão do modo Mapa.,O botão mudou de cor. A opção Relevo está aberta na lista.,REPROVADO,BR4
@@ -22,7 +22,7 @@ CASO-11,Modo de renderização,Abra o site do Urban.Routes,3a,Clique no botão d
 CASO-11,Modo de renderização,Abra o site do Urban.Routes,2b,Aproxime o cursor do botão do modo Satélite.,O botão mudou de cor. A opção Marcadores está aberta na lista.,REPROVADO,BR4
 CASO-11,Modo de renderização,Abra o site do Urban.Routes,3b,Clique no botão Satélite.,Mapa renderizado em modo satélite. A visualização não apresenta problemas perceptíveis. A cor do botão Satélite voltou.,REPROVADO,BR4
 CASO-12,Renderização de objetos,Abra o site do Urban.Routes,1a,Dê zoom em um prédio.,O prédio é renderizado conforme o design.,APROVADO,X
-CASO-12,Renderização de objetos,Abra o site do Urban.Routes,1b,Aumente o zoom em uma estação de Metrô, LA (exemplo: Estação Central de Long Beach).,O ícone do metrô é exibido.,APROVADO,X
+CASO-12,Renderização de objetos,Abra o site do Urban.Routes,1b,Aumente o zoom em uma estação de Metrô LA (exemplo: Estação Central de Long Beach), O ícone do metrô é exibido.,APROVADO,X
 CASO-12,Renderização de objetos,Abra o site do Urban.Routes,1c,Aumente o zoom em um ponto de referência (exemplo: Museu de Arte do Condado de Los Angeles).,O ícone do ponto de referência é exibido.,APROVADO,X
 CASO-12,Renderização de objetos,Abra o site do Urban.Routes,1d,Aumente o zoom em um parque da cidade (exemplo: Parque Natural Vista Hermosa).,O ícone do parque é exibido.,APROVADO,X
 CASO-13,Visualização de informações dos objetos,Abra o site do Urban.Routes,1,Clique em um lugar no mapa (exemplo: Estádio Dodger).,A exibição de informações (com informações do local) está aberta. A visualização corresponde ao design.,APROVADO,X
