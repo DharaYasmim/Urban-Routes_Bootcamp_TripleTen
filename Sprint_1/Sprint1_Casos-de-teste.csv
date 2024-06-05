@@ -4,7 +4,7 @@ CASO-2;Zoom no mapa;O site Urban.Routes não está aberto;1;Abra o site do Urban
 ;;;2;Clique no botão de mais (+).;O nível de zoom muda em um valor. Todos os objetos são renderizados conforme o design.;;;;;;;;;;;;;;;;;;;;
 CASO-3;Objetos não clicáveis;Abra o site do Urban.Routes;1;Clique no nome do local presente no mapa (exemplo: Hollywood).;Nada acontece. Os cabeçalhos de área não podem ser selecionados.;REPROVADO;BR7;;;;;;;;;;;;;;;;;;
 ;;;2;Clique no nome do local presente no mapa (exemplo: West Hollywood).;Nada acontece. Os cabeçalhos de área não podem ser selecionados.;;;;;;;;;;;;;;;;;;;;
-CASO-4;"Selecionar o campo "De"";Abra o site do Urban.Routes;1;"Clique no campo ""De"".";"O campo ""De"" é selecionado. O cursor pisca. O campo de pesquisa fica vazio.";REPROVADO;BR8;;;;;;;;;;;;;;;;;;
+CASO-4;Selecionar o campo "De";Abra o site do Urban.Routes;1;Clique no campo "De".";O campo "De" é selecionado. O cursor pisca. O campo de pesquisa fica vazio.;REPROVADO;BR8;;;;;;;;;;;;;;;;;;
 CASO-5;Busca por objeto;Abra o site do Urban.Routes;1;"Clique no campo ""Para"".";O cursor pisca.;REPROVADO;BR1;;;;;;;;;;;;;;;;;;
 ;;;2;"Digite ""Subway"".";A lista de estações de metrô é exibida.;;;;;;;;;;;;;;;;;;;;
 CASO-6;"Preenchimento do campo De";Abra o site do Urban.Routes;1;"Clique no campo ""De"".";"O campo ""De"" é selecionado. O cursor pisca. O campo de pesquisa fica vazio.";REPROVADO;BR2;;;;;;;;;;;;;;;;;;
